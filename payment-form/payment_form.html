@@ -70,8 +70,8 @@
     <form action="payment_action.php" method="POST" class="payment-form">
         <h2>Payment Form</h2>
 
-        <label for="amount">Total Order Amount(PHP)</label>
-        <input type="text" name="amount">
+        <label for="amount">Total Order Amount (PHP)</label>
+        <input type="text" name="amount" placeholder="Enter amount here">
         
         <label for="paymentMethod">Payment Type:</label>
         <select id="paymentMethod" name="payment_type">
@@ -82,10 +82,11 @@
             <option value="4">PayMaya</option>
         </select>
         
-        <label for="Account_number">Card/Account Number</label>
-        <input type="text" name="Account_number">
 
-        <input type="submit" value="Click Submit">
+        <label for="Account_number">Card/Account Number</label>
+        <input type="text" name="Account_number" placeholder="Enter Card/Account Number">
+
+        <input type="submit" value="Make Payment">
     </form>
    
 </body>
