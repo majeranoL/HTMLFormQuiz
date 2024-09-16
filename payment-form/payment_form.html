@@ -71,10 +71,10 @@
         <h2>Payment Form</h2>
 
         <label for="amount">Total Order Amount (PHP)</label>
-        <input type="text" name="amount" placeholder="Enter amount here">
+        <input type="text" name="amount" placeholder="Enter amount here" id="amount">
         
         <label for="paymentMethod">Payment Type:</label>
-        <select id="paymentMethod" name="payment_type">
+        <select id="payment_type" name="payment_type" >
             <option value="" disabled selected hidden>Select Payment Method</option>
             <option value="1">Credit Card</option>
             <option value="2">Debit Card</option>
@@ -83,8 +83,8 @@
         </select>
         
 
-        <label for="Account_number">Card/Account Number</label>
-        <input type="text" name="Account_number" placeholder="Enter Card/Account Number">
+        <label for="account_number">Card/Account Number</label>
+        <input type="text" name="account_number" placeholder="Enter Card/Account Number" id="account_number">
 
         <input type="submit" value="Make Payment">
     </form>
